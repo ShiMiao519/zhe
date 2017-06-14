@@ -1,0 +1,57 @@
+<resources>
+    <style name="Control" />
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Layout.Linear" parent="Control">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Layout.Toolbar" parent="Control">
+        <item name="android:layout_height">50dip</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="ImageView.Toolbar" parent="Control">
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:background">@drawable/selector_color_main_add</item>
+    </style>
+    <style name="EditText.Search" parent="Control">
+        <item name="android:focusable">false</item>
+        <item name="android:hint">搜索一下</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:layout_height">34dip</item>
+        <item name="android:layout_marginTop">8dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginBottom">8dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColorHint">@color/greySub</item>
+        <item name="android:drawableRight">@mipmap/ic_edit_search</item>
+        <item name="android:background">@drawable/bg_edit_text_search</item>
+    </style>
+    <style name="Layout.LinearHor" parent="Control">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ListView.Line" parent="Control">
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ListView.Main" parent="Control">
+        <item name="android:divider">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+</resources>

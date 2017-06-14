@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.app2.view.activity.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:id="@+id/fragmentlay"
+        android:layout_weight="2.44"></FrameLayout>
+
+    <RadioGroup
+
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg">
+
+        <RadioButton
+
+            android:id="@+id/rb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/tp1"
+
+            android:checked="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="首页"
+            android:textColor="@drawable/color"
+            android:textSize="10sp"/>
+
+        <RadioButton
+            android:drawableTop="@drawable/tp2"
+            android:textColor="@drawable/color"
+            android:id="@+id/rb_2"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:gravity="center"
+            android:button="@null"
+            android:text="分类"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            />
+        <RadioButton
+            android:drawableTop="@drawable/tp3"
+            android:textColor="@drawable/color"
+            android:id="@+id/rb_3"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:gravity="center"
+            android:button="@null"
+            android:text="购物车"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            />
+        <RadioButton
+            android:drawableTop="@drawable/tp4"
+            android:textColor="@drawable/color"
+            android:id="@+id/rb_4"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:gravity="center"
+            android:button="@null"
+            android:text="个人"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            />
+    </RadioGroup>
+
+
+</LinearLayout>

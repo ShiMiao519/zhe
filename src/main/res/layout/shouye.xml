@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shouyeLinearLayout"
+    style="@style/Layout.Linear"
+    >
+    <include
+        android:id="@+id/topInclude"
+        layout="@layout/include_main" />
+
+</LinearLayout>
